@@ -9,8 +9,8 @@ scroll(d3.selectAll('.step'));
                 let sourceCredit = "Source/Credit: ";
                   switch (index) {
                     case 0: //starting point
-                          document.getElementById('iframe').src = "schema.html";
-                          document.getElementById('source').innerText = sourceCredit + "Guillaume Levrier - Digital Culture @ Sciences Po";
+                          document.getElementById('iframe').src = "netgraph/index.html";
+                          document.getElementById('source').innerHTML = sourceCredit;
                           break;
                     case 1: //1
                           document.getElementById('iframe').src = "explorations.html";
